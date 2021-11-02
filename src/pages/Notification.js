@@ -1,0 +1,22 @@
+import React from 'react';
+import Alert from '@mui/material/Alert';
+import Stack from '@mui/material/Stack';
+
+function Notification() {
+  return (
+    <div className="container">
+    <div className="row">
+    <div className="col-lg-12">
+    <Stack sx={{ width: '100%' }} spacing={2}>
+    <Alert severity="error">This is an error alert — check it out!</Alert>
+    <Alert severity="warning">This is a warning alert — check it out!</Alert>
+    <Alert severity="info">This is an info alert — check it out!</Alert>
+    <Alert severity="success">This is a success alert — check it out!</Alert>
+  </Stack>
+    </div>
+    </div>
+    </div>
+  );
+}
+
+export default Notification;

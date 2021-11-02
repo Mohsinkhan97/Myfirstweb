@@ -1,0 +1,611 @@
+body {
+    background-color: #F0F2F5 !important;
+    overflow-x: hidden;
+}
+.mainav{
+    padding-right: 80px !important;
+}
+.searchbox{
+    margin-top: 20px;
+}
+.popupbox{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.badgebox {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.css-93hrkz-MuiPaper-root-MuiAppBar-root {
+     box-shadow: none !important; 
+    background-color: #F0F2F5 !important;
+    height: 10px;
+    position: static !important;
+}
+:root {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ input[type="search"] {
+    background-color: #F0F2F5 !important;
+    border: 1px solid #d2d6da;
+    border-radius: 0.375rem;
+    border-top-left-radius: 0.375rem !important;
+    border-bottom-left-radius: 0.375rem!important;
+    padding: 0.625rem 0.75rem !important;
+    line-height: 1.3!important;
+  }
+  input:focus { 
+    outline: none !important;
+ }
+.ReactModal__Content {
+    /* inset: 290px !important; */
+    margin-left: 530px;
+    height: 390px;
+    width: 450px !important;
+    margin-top: 30px;
+    opacity: 1 !important;
+    z-index: 0 !important;
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  .modal-backdrop
+{
+    opacity:0.5 !important;
+}
+  .userdiv input[type=text], .passdiv input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .logindiv button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .userdiv{
+      margin-top: 50px;
+  }
+
+.fornavbackground {
+    background-image: url(../images/download\ .jpg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+    background-position: center;;
+}
+.fornavbackground:after {
+    width: 100%;
+    height: 100%;
+    content: "";
+     opacity: .8; 
+    position: absolute;
+    background: #000;
+}
+.main-div{
+    height: auto;
+}
+.home, .reports, .products {
+    height: 0 !important; 
+    font-size: 1rem;
+}
+.css-h4y409-MuiList-root {
+    z-index: 4;
+}
+.firstchild{
+    text-decoration: none;
+    color: white !important;
+}
+.firstchild-div {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.firstchild-text{
+    padding-left: 0px;
+    font-size: 17px !important;
+    font-weight: 540;
+}
+
+.reacticon{
+    color: #45879A !important;
+    font-size: 23px;
+    font-weight: bold;
+    margin-right: 20px;
+} 
+.divide{
+    background: #DFE0E2 !important;
+    width: 90%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.css-h4y409-MuiList-root{
+    padding-top: 20px !important;
+}
+.listbox {
+    margin-top: 12px !important;
+    width: 90% !important;
+     margin-left: auto !important;
+    margin-right: auto !important;
+    border-radius: 3% !important;
+    font-size: 6px !important;
+}
+.css-10hburv-MuiTypography-root {
+    font-size: 14px !important;
+}
+.css-cveggr-MuiListItemIcon-root {
+    min-width: 36px !important;
+}
+.selected .listbox{
+    color: white;
+    background-color: #00ACC1;
+}
+.list{
+    text-decoration: none;
+    color: white !important;
+}
+.listicon{
+    color: white !important;
+}
+ .cont{
+    background-color: #00ACC1 !important;
+    display: block;
+    left: 4%;
+    width: 90%;
+    color: white !important;
+    outline: none;
+    border-color: none !important;
+    border: none !important ;
+    padding:12px 0px !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    position: absolute !important;
+    bottom: 0;
+    margin-bottom: 20px !important;
+} 
+/* .containerr {
+    margin-left: 230px;
+    justify-content: space-around;
+}*/
+.a,.b,.c,.d {
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    height: 140px;
+    background-color: white;
+    box-shadow: 2px 3px 15px 2px #888888;
+}
+.innercontent {
+    display: flex;
+    justify-content: space-between;
+}
+.abc {
+    margin-top: 20px !important;
+    width: 100%;
+}
+.innertext p {
+    color: #808080;
+    font-weight: 10;
+    font-size: 16px;
+     padding-right: 20px;
+     padding-top: 10px;
+}
+.innertext h1 {
+    color: #344767;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 60px;
+}
+.bottom {
+    color: #808080;
+    font-weight: lighter;
+}
+.bottom span {
+    color: #51AF50;
+    padding-right: 6px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.innericon{
+    background-color: #37373D;
+    width: 64px;
+    height: 64px;
+    margin-left: 13px;
+    margin-top: -20px;
+    border-top-left-radius: 18%;
+    border-top-right-radius: 18%;
+    border-bottom-left-radius: 18%;
+    border-bottom-right-radius: 18%;
+    color: white;
+}
+.innericon .sa {
+    font-size: 28px !important;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+
+.innericon2{
+    background-color: #E73673;
+    width: 64px;
+    height: 64px;
+    margin-left: 13px;
+    margin-top: -20px;
+    border-top-left-radius: 18%;
+    border-top-right-radius: 18%;
+    border-bottom-left-radius: 18%;
+    border-bottom-right-radius: 18%;
+    color: white;
+}
+.innericon2 .sa {
+    font-size: 28px !important;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+.innericon3{
+    background-color: #5EB562;
+    width: 64px;
+    height: 64px;
+    margin-left: 13px;
+    margin-top: -20px;
+    border-top-left-radius: 18%;
+    border-top-right-radius: 18%;
+    border-bottom-left-radius: 18%;
+    border-bottom-right-radius: 18%;
+    color: white;
+}
+.innericon3 .sa {
+    font-size: 28px !important;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+.innericon4{
+    background-color: #257FEA;
+    width: 64px;
+    height: 64px;
+    margin-left: 13px;
+    margin-top: -20px;
+    border-top-left-radius: 18%;
+    border-top-right-radius: 18%;
+    border-bottom-left-radius: 18%;
+    border-bottom-right-radius: 18%;
+    color: white;
+}
+.innericon4 .sa {
+    font-size: 28px !important;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+.day,.nigt {
+    margin-top: 40px !important;
+}
+.css-1ex1afd-MuiTableCell-root {
+ padding: 0px !important;
+}
+.MuiAvatar-fallback {
+    width: 75%;
+    height: 75%;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    height: 510px;
+    padding-top: 40px !important;
+}
+.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+    max-width: 545px !important;
+    height: 510px;
+    padding-top: 60px;
+}
+.css-185gdzj-MuiCardHeader-root {
+padding: 8px !important;
+}
+.css-185gdzj-MuiCardHeader-root {
+ padding-top: 5px !important;
+}
+.css-1ex1afd-MuiTableCell-root {
+    padding-left: 30px!important;
+}
+.css-1ygcj2i-MuiTableCell-root {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: bold !important;
+    font-size: 11px !important;
+    color: #7b809a!important;
+    text-transform: uppercase;
+}
+.avatarg{
+    border-radius: 50% !important;
+    width: 20% !important;
+    height:20px !important;
+}
+.avatargg{
+    border-radius: 50% !important;
+    width:20% !important;
+    height: 20px !important;
+}
+.avatarggg{
+    width: 100% !important;
+}
+.tableh {
+    font-weight:bold;
+    text-align: left;
+    padding-left: 20px !important;
+}
+.tablep {
+padding-left: 20px !important;
+}
+.checkicon {
+    padding-right: 10px !important;
+    color:#1A73E8 !important;
+    font-weight: bold;
+}
+.order-de {
+    font-size: 19px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.footercontent p{
+    color: #7b809a!important;
+    font-size: .875rem!important;
+}
+.footercontent p span{
+    font-weight: bold;
+}
+.footernav .footernavlink {
+    text-decoration: none;
+    padding-left: 40px;
+    color: #344767;
+    font-weight: 400;
+    font-size: .875rem;
+}
+.try{
+    width: 95% !important;
+    height: auto !important;
+}
+.tryy{
+margin-top: 10px;
+}
+.btnn{
+background-color: #4ca750!important;
+border-radius: 0.45rem !important;
+width: 8%;
+height: 20px;
+font-size: 10px !important;
+}
+.btnnn{
+    background-color: #606977!important;
+    border-radius: 0.45rem !important;
+    width: 8%;
+    height: 20px;
+    font-size: 10px !important;
+    }
+    .tabletc{
+        font-weight: 600!important;
+        color: #7B809A;
+        margin-bottom: 0rem !important;
+        margin-top: 9px;
+    }
+    .tabletcc{
+        color: #7B809A;
+        
+    }
+    .tabletcd{
+        color: #7B809A;
+    }
+
+.prt{
+background-color: #E12C6C;
+width: 70% !important;
+margin-left: 50px;
+height: 70px;
+border-radius: 0.5rem;
+margin-bottom: -40px !important;
+position: absolute;
+margin-top: -30px !important;
+}
+.prt6 {
+    color: white;
+font-weight: 590 !important;
+font-size: 1.2rem;
+    line-height: 1.625;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+@media screen and  (max-width : 768px) and (min-width: 600px){
+    .footercontent p{
+        text-align: center;
+    }
+    .footernav .footernavlink {
+margin-left: 90px;
+        padding-left: 0px;
+    }
+    .ReactModal__Content {
+        inset: 4px !important;
+       margin-left:130px !important;
+       height: 40% !important;
+       width: 60% !important;
+       margin-top: 70px;
+   }
+}
+ 
+@media screen and (min-width: 365px) and  (max-width : 540px){
+    .mainav{
+        padding-right: 0px !important;
+    }
+    .searchbox{
+        margin-top: 0px;
+    }
+    .popupbox{
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+    .badgebox {
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+    .footernav .footernavlink {
+        padding-left: 20px;
+    }
+    .ReactModal__Content {
+        inset: 4px !important;
+       margin-left: 0px !important;
+       height: 50% !important;
+       width: 100% !important;
+       margin-top: 70px;
+   }
+   .mainav{
+    padding-right: 30px !important;
+}
+.searchbox{
+    margin-top: 20px;
+}
+.popupbox{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.badgebox {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+}
+
+@media screen and  (max-width : 360px) {
+    .cont{
+        background-color: #00ACC1 !important;
+        display: block;
+        left: 8%;
+        width: 80%;
+        color: white !important;
+        outline: none;
+        border-color: none !important;
+        border: none !important ;
+        padding:12px 0px !important;
+        font-size: 12px !important;
+        font-weight: bold !important;
+        position: absolute !important;
+        bottom: 0 !important;
+        
+    }
+    .a,.b,.c,.d {
+        margin-top: 40px;
+        margin-left: 0px;
+        border-radius: 5%;
+        height: 140px;
+        background-color: white !important;
+    }
+    .innertext p {
+        color: #808080;
+        font-weight: 10;
+        font-size: 16px;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .innertext h1 {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        padding-left: 70px;
+    }
+    .abc {
+        margin-top: 10px !important;
+        width: 100%;
+    }
+    .ReactModal__Content {
+         inset: 4px !important;
+        margin-left: 0px !important;
+        height: 60%;
+        width: 100% !important;
+        margin-top: 50px;
+    }
+
+    .mainav{
+        padding-right: 0px !important;
+    }
+    .searchbox{
+        margin-top: 20px;
+    }
+    .popupbox{
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+    .badgebox {
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+  
+}
+
+
+@media only screen and (max-width: 2000px) and (min-width: 1025px){
+    .container, .container-md, .container-sm{
+        margin-left:240px ;
+        }
+
+}
+
+
+
+@media (min-width: 1000px) and (max-width: 1024px){
+.container, .container-md, .container-sm{
+margin-left:0px ;
+}
+.a,.b,.c,.d {
+    margin-top: 30px !important;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    height: 510px;
+    padding-top: 40px !important;
+    width: 300px;
+}
+.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+    max-width: 355px !important;
+    height: 510px;
+    padding-top: 20px;
+}
+
+.ReactModal__Content {
+    inset: 4px !important;
+   margin-left: 290px;
+   height: 70%;
+   margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+}
+
